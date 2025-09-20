@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devsign Hub - Design & Branding Services</title>
+  <style>
+    /* Basic Reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; color: #333; background: #f9f9f9; }
+
+    /* Navbar */
+    nav {
+      background: #1a73e8;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 40px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav img { width: 50px; border-radius: 50%; }
+    nav ul { list-style: none; display: flex; gap: 20px; }
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+    nav ul li a:hover { color: #ffe082; }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #1a73e8, #34a853);
+      color: #fff;
+    }
+    .hero h1 { font-size: 2.8rem; margin-bottom: 15px; }
+    .hero p { font-size: 1.2rem; margin-bottom: 20px; }
+    .hero .cta {
+      background: #fff;
+      color: #1a73e8;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .hero .cta:hover { background: #ffe082; color: #333; }
+
+    /* Section Titles */
+    section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+    section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #1a73e8;
+    }
+
+    /* Services Grid */
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease-in-out;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .card h3 { margin-bottom: 10px; color: #34a853; }
+    .card ul { padding-left: 20px; }
+    .card ul li { margin: 6px 0; }
+
+    /* About Section */
+    .about { text-align: center; max-width: 800px; }
+    .about p { font-size: 1.1rem; margin-top: 15px; line-height: 1.6; }
+
+    /* Contact Section */
+    .contact {
+      text-align: center;
+    }
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .contact .whatsapp { background: #25D366; }
+    .contact .email { background: #1a73e8; }
+    .contact a:hover { opacity: 0.9; }
+
+    /* Footer */
+    footer {
+      background: #1a73e8;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+      <img src="Devsign_hub logo.jpg" alt="Devsign Hub Logo">
+    </div>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to Devsign Hub</h1>
+    <p>Complete Design & Digital Branding Solutions to help your business grow 🚀</p>
+    <a href="#contact" class="cta">Get in Touch</a>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>✅ Graphic Design</h3>
+        <ul>
+          <li>Social Media Posts & Creatives</li>
+          <li>Posters, Flyers, Banners</li>
+          <li>Festival & Event Designs</li>
+          <li>Business Cards, Letterheads, Brochures</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>✅ Branding & Identity</h3>
+        <ul>
+          <li>Logo Design (2D / Motion)</li>
+          <li>Digital Visiting Cards</li>
+          <li>Brand Kits (Colors, Fonts, Templates)</li>
+          <li>Social Media Setup (DP, Cover, Highlights)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>✅ Social Media Management</h3>
+        <ul>
+          <li>Content Creation (Posts, Reels, Stories)</li>
+          <li>Hashtag Research & Strategy</li>
+          <li>Captions & Engagement Support</li>
+          <li>Monthly Insights & Reports</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>✅ E-Commerce & Corporate Design</h3>
+        <ul>
+          <li>Product Posters, Offer Banners</li>
+          <li>Catalogues & Brochures</li>
+          <li>Marketplace Images (Amazon/Flipkart)</li>
+          <li>Corporate Profiles, Event/Seminar Graphics</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>✅ Web & Digital Graphics</h3>
+        <ul>
+          <li>Website / App Banners & Graphics</li>
+          <li>Landing Pages for Ads</li>
+          <li>Thumbnails for YouTube / Reels</li>
+          <li>Motion Graphics & Short Videos</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Hello, I’m <strong>Pooja</strong>, founder of <strong>Devsign Hub</strong>.  
+    We are passionate about crafting creative design solutions that elevate your brand and help you connect with your audience.  
+    From social media to corporate branding, we provide everything you need to grow online with impact and style.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <a href="https://wa.me/91XXXXXXXXXX" class="whatsapp">💬 WhatsApp</a>
+    <a href="mailto:yourmail@example.com" class="email">📧 Email</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Devsign Hub | Designed by Pooja</p>
+  </footer>
+</body>
+</html>
